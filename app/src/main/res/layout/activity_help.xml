@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_people_12"
+            android:contentDescription="Header Image"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Title Section -->
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bantuan"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Help Description -->
+        <TextView
+            android:id="@+id/help_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi ini menyediakan platform untuk berkomunikasi dengan teman dan keluarga secara aman. Berikut adalah beberapa petunjuk dasar untuk memulai."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Section: How to Use the App -->
+        <TextView
+            android:id="@+id/how_to_use_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Menggunakan Aplikasi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/how_to_use_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Masuk ke aplikasi menggunakan akun Anda.\n2. Pilih kontak yang ingin Anda ajak bicara.\n3. Kirim pesan atau gambar."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Section: Contact Support -->
+        <TextView
+            android:id="@+id/contact_support_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungi Dukungan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/contact_support_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jika Anda mengalami kesulitan atau masalah, hubungi tim dukungan kami di: support@webchatapp.com"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Button to Contact Support -->
+        <Button
+            android:id="@+id/contact_support_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hubungi Dukungan"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/BackButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="Back" />
+
+    </LinearLayout>
+</ScrollView>
