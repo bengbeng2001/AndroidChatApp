@@ -38,7 +38,7 @@ public class HomepageActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // Tombol Help
+        // Tombol About
         Button AboutButton = findViewById(R.id.aboutButton);
         AboutButton.setOnClickListener(v -> {
             Intent intent = new Intent(HomepageActivity.this, AboutActivity.class);
