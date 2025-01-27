@@ -6,35 +6,59 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/chatapp"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/chatapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.WebChatApp"
         tools:targetApi="31">
         <activity
-            android:name=".HomepageActivity"
-            android:exported="true">
-        </activity>
+            android:name=".Welcome"
+            android:exported="true" />
         <activity
-            android:name=".HelpActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".AboutActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".ProfileActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".LoginActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+<!--        <activity-->
+<!--            android:name=".fragment.Page1"-->
+<!--            android:exported="true" />-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".lama.HomepageActivity" -->
+        <!-- android:exported="true" /> -->
+        <!-- <activity -->
+        <!-- android:name=".lama.EditProfileActivity" -->
+        <!-- android:exported="true" /> -->
+        <!-- <activity -->
+        <!-- android:name=".lama.HelpActivity" -->
+        <!-- android:exported="true" /> -->
+        <!-- <activity -->
+        <!-- android:name=".lama.AboutActivity" -->
+        <!-- android:exported="true" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ProfileActivity" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatWindow"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
     </application>
 
