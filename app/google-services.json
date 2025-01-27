@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "137773691968",
+    "firebase_url": "https://androidchatapp-5ee93-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "androidchatapp-5ee93",
+    "storage_bucket": "androidchatapp-5ee93.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137773691968:android:dd9edc87851bedb96d1ba5",
+        "android_client_info": {
+          "package_name": "com.av.avmessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEPNW5ceZJzY-QRaOZz8AHELF-y_LNFVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137773691968:android:5454ba32b0c084476d1ba5",
+        "android_client_info": {
+          "package_name": "com.example.webchatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEPNW5ceZJzY-QRaOZz8AHELF-y_LNFVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
